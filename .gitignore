@@ -1,0 +1,77 @@
+# ============================================================
+# Obsidian local UI state (MUST ignore)
+# ============================================================
+.obsidian/
+workspace.json
+workspace-mobile.json
+appearance.json
+graph.json
+*.data
+
+# ============================================================
+# Core plugin configs (KEEP - portable)
+# ============================================================
+!.obsidian/plugins/obsidian-git/
+!.obsidian/plugins/calendar/
+!.obsidian/plugins/dataview/
+!.obsidian/plugins/templater/
+
+# ============================================================
+# Build artifacts (MUST ignore)
+# ============================================================
+*.o
+*.a
+*.so
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.dis
+*.srec
+*.out
+
+# ============================================================
+# MCU build outputs
+# ============================================================
+Debug/
+Release/
+build/
+dist/
+cmake-build-*/
+
+# ============================================================
+# Keil / IAR / CubeIDE intermediates
+# ============================================================
+*.Opt
+*.Bak
+*.ddk
+*.edk
+*.pack
+*.sfr
+*.upd
+*.uvoptx
+*.uvprojx
+*.ewd
+*.ewp
+*.eww
+
+# ============================================================
+# Temporary / system files
+# ============================================================
+*~
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.log
+
+# ============================================================
+# Large binary blobs (datasheets are text, not here)
+# ============================================================
+*.pdf
+*.zip
+*.tar.gz
+*.iso
